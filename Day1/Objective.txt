@@ -1,0 +1,4 @@
+Objective is to get some hand-on practice on arrays topic in C
+Below are the programs planned:
+1. Multiplication of Matrices 
+2. Transpose of a Matrix
