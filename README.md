@@ -1,1 +1,1 @@
-# Experiment_with_c
+#A Challenge to program in C for continous 7 days
