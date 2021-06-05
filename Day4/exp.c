@@ -3,14 +3,8 @@
 
 int main()
 {
-  int a[5]={1},b[5]={1};
-  if(a==b)
-  {
-  	printf("same");
-  }
-  else
-  {
-  	printf("Different");
-  }
-  
+  int a[3][2]={1,2,3,4,5,6};
+  int *ptr;
+  ptr=a+1;
+  printf("%d",*ptr);
 }
