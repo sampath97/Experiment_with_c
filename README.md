@@ -1,1 +1,1 @@
-#A Challenge to program in C for continous 7 days
+#A Challenge to program in C for continous 30 days
