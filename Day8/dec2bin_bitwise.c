@@ -16,12 +16,13 @@ int main()
 
 int dec2bin(int n)
 {
-	int bit,bin=0,mask=1;
+	int mask=1,bit=0,bin=0,p=1;
 	while(n!=0)
 	{
 		bit=(n & mask)?1:0;
-		bin=(bin*10)+bit;
+		bin=bin+bit*p;
 		n=n>>1;
+		p=p*10;
 	}
 	return bin;
 }
