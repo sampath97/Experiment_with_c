@@ -4,6 +4,5 @@
 int main()
 {
 	char *p="hello";
-	*p='c';
-	printf("%c",*p);
+	printf("%s",p);
 }
