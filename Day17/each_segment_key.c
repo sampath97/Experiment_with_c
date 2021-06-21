@@ -21,19 +21,23 @@ int main()
 	printf("Enter key,size of segment:");
 	scanf("%d,%d",&key,&s);
 	
-	int j,start,p;
+	int j,start,p,k=0,end;
 	for(i=0;i<n;i=i+s)
 	{
+		k++;
 		start=i;
 		p=0;
-		if(start+s>n)
+		
+		if((start+s)>n)
 		{
-			end=n;
+			if((start+s)==k*s)
+			{
+	      		s=n-i;  
+			}
 		}
-		else
-		{
-			end=start+s;
-		}
+		
+		end=start+s;
+		printf("\nstart=%d\t end=%d\n",start,end);
 		
 		for(j=start;j<end;j++)
 		{
